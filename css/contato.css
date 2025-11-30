@@ -1,0 +1,258 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000; 
+    color: #fff; 
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 20px 0;
+    border-bottom: 4px solid #7E6F1D;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 1200px;
+    gap: 18px;
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body {
+    background-color: #000;
+    color: #7E6F1D;
+    display: flex;          
+    flex-direction: column;  
+    align-items: center;    
+    width: 100%;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 4px solid #7E6F1D;
+    background-color: #000;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    max-width: 1200px;
+    gap: 18px;
+}
+
+.menu h1 {
+    font-weight: bolder;
+    color: #7E6F1D;
+    font-size: 40px;
+}
+
+.botao {
+    display: flex;
+    gap: 25px;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.botao a:hover {
+    color: #DEC541;
+    transform: translateY(-2px);
+}
+
+
+.titulo-principal {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 0;
+    color: #7E6F1D;
+    width: 100%;
+}
+
+
+.evento {
+    max-width: 1100px;
+    width: 90%;              
+    margin: 30px auto;       
+    background-color: #141313;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 13px 15px #7E6F1D;
+    transition: ease 0.4s;
+    text-align: center;
+}
+
+.evento:hover {
+    transform: translateY(-8px);
+    background-color: #232323;
+    color: #DEC541;
+}
+
+.titulo-evento {
+    font-size: 32px;
+    color: #7E6F1D;
+    margin-bottom: 15px;
+}
+
+.evento img {
+    margin: 20px 0;
+    transition: 0.3s ease;
+}
+
+.evento img:hover {
+    transform: translateY(-20px);
+}
+
+.evento p {
+    font-size: 19px;
+    max-width: 900px;
+    margin: 0 auto 20px auto; 
+}
+
+
+footer {
+    background-color: #000;
+    padding: 25px 0;
+    margin-top: 50px;
+    border-top: 4px solid #7E6F1D;
+    width: 100%;
+}
+
+.produtores {
+    text-align: center;
+}
+
+.produtores p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7E6F1D;
+}
+
+    align-items: center;
+    width: 95%;
+    max-width: 1200px;
+    gap: 20px;
+}
+
+.menu h1 {
+    color: #7E6F1D;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.botao a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s ease;
+}
+
+.botao a:hover {
+    color: #DEC541;
+    transform: translateY(-2px);
+}
+
+.contato {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #141313;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(222, 197, 65, 0.3);
+}
+
+.contato h2 {
+    text-align: center;
+    color: #DEC541;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+.contato form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contato label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #7E6F1D;
+}
+
+.contato input, 
+.contato textarea {
+    padding: 12px;
+    border-radius: 10px;
+    border: 2px solid #7E6F1D;
+    background-color: #000;
+    color: #fff;
+    font-size: 16px;
+    transition: 0.3s ease;
+}
+
+
+
+
+.contato button {
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    background-color: #7E6F1D;
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.contato button:hover {
+    background-color: #DEC541;
+    color: #000;
+    transform: translateY(-3px);
+}
+
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    background-color: #000;
+    border-top: 4px solid #7E6F1D;
+}
+.produtores {
+    align-items: center;
+}
+.produtores p {
+    color: #7E6F1D;
+    font-weight: bold;
+    font-size: 16px;
+}

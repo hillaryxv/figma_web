@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #7E6F1D;
+    display: flex;           
+    flex-direction: column;  
+    align-items: center;    
+    width: 100%;
+}
+.titulo-principal {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 0;
+    color: #7E6F1D;
+    width: 100%;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    padding: 20px 0;
+    border-bottom: 4px solid #7E6F1D;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;            /* Ajustado para 100% */
+    max-width: 1200px;
+    gap: 18px;
+    margin: auto;
+}
+
+.menu h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #7E6F1D;
+    width: 100%;           /* Adicionado para garantir a largura total */
+}
+
+.botao {
+    display: flex;
+    gap: 25px;
+}
+
+.botao a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.botao a:hover {
+    color: #DEC541;
+    transform: translateY(-2px);
+}
+
+.titulo {
+    text-align: center;
+    font-size: 40px;
+    margin: 40px 0;
+    color: #7E6F1D;
+    width: 100%;
+
+}
+
+.evento {
+    max-width: 1100px;
+    width: 90%;               
+    margin: 30px auto;       
+    background-color: #141313;
+    padding: 35px;
+    border-radius: 15px;
+    box-shadow: 0 13px 15px #7E6F1D;
+    transition: ease 0.4s;
+    text-align: center;
+}
+
+.evento:hover {
+    transform: translateY(-8px);
+    background-color: #232323;
+    color: #DEC541;
+}
+
+.titulo-evento {
+    font-size: 32px;
+    color: #7E6F1D;
+    margin-bottom: 15px;
+}
+
+.evento img {
+    margin: 20px 0;
+    transition: 0.3s ease;
+}
+
+.evento img:hover {
+    transform: translateY(-20px);
+}
+
+.evento p {
+    font-size: 19px;
+    max-width: 900px;
+    margin: 0 auto 20px auto; 
+}
+
+footer {
+    background-color: #000;
+    padding: 25px 0;
+    border-top: 4px solid #7E6F1D;
+    width: 100%;
+}
+
+.produtores {
+    text-align: center;
+}
+
+.produtores p {
+    font-size: 16px;
+    font-weight: bold;
+    color: #7E6F1D;
+}
